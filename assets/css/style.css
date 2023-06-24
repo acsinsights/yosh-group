@@ -2197,6 +2197,7 @@ label {
 }
 .about-content p {
   margin-bottom: 55px;
+  color: #000000;
 }
 .breadcrumbarea-space {
   padding: 186px 0 1px;
@@ -2491,7 +2492,7 @@ label {
 
 /* services-three */
 .services-style-three {
-  background: var(--tg-secondary-background);
+  /* background: var(--tg-secondary-background); */
 }
 
 /*=============================
@@ -2560,7 +2561,7 @@ label {
   border-radius: 16px;
 }
 .project-content .title {
-  font-size: 24px;
+  font-size: 20px;
   text-transform: uppercase;
   margin-bottom: 10px;
 }
@@ -4207,6 +4208,50 @@ label {
 .pdficon {
   margin: 0 2px;
 }
+
+.project-img{
+  height: 300px;
+width: 500px;
+}
+.first-container{
+  display: flex;
+
+  color: black;
+  padding: 30px;
+}
+.sec-img{
+  height: 150px;
+}
+.project-details-title .empire-title{
+  margin-bottom: 70px;
+}
+.our-vision-box{
+  /* border: 2px solid black; */
+  border-radius: 15px;
+  background-color: #f6a635;
+  padding: 10px 20px;
+}
+.our-vision-box h2 {
+  text-align: left;
+  font-weight: 600;
+}
+
+.twobox{
+  display: flex;
+  gap: 20px;
+
+}
+
+.mission-color{
+  background-color: #9bc2df;
+}
+
+
+
+
+
+
+
 @keyframes taRotation {
   0% {
     transform: rotate(0deg);

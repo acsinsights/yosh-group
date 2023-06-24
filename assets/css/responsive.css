@@ -1264,6 +1264,10 @@
 .section-title .title {
 	font-size: 35px;
 }
+.content-direction{
+	display: flex;
+	flex-direction: column;
+}
 .banner-content .title {
 	font-size: 65px;
 }
@@ -1430,6 +1434,21 @@
 	.section-pb-140 {
 		padding-bottom: 6px;
 	}
+	.title {
+		font-size: 43px;
+	}
+	.section-pb-100 {
+		padding-bottom: 26px;
+	}
+	.pb-100 {
+		padding-bottom: 45px;
+	}
+	.pt-100 {
+		padding-top: 41px;
+	}
+	.mb-100 {
+		margin-bottom: 5px;
+	}
 	.team {
 		padding: 0px;
 	}
@@ -1443,7 +1462,7 @@
 		align-items: flex-start;
 	}
 	.Clientelelogo-title {
-		padding: 50px;
+		padding: 34px;
 	}
 	.file-wrap {
 		margin-top: 0px;
@@ -1461,4 +1480,6 @@
 	.select-option{
 		display: none;
 	  }
+	  .first-container{
+flex-direction: column;	  }
 }
