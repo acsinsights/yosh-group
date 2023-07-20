@@ -17,7 +17,9 @@
       href="assets/img/yoshgroup-favicon.png"
     />
     <!-- Place favicon.ico in the root directory -->
-
+    <script src="assets/js/jquery-3.7.0.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="assets/js/custom.js"></script>
     <!-- CSS here -->
     <link rel="stylesheet" href="assets/css/popupform.css" />
 
@@ -215,11 +217,11 @@
               />
             </div>
             <div class="form-group">
-              <span class="dropdown-heading"> Interested In</span> <br/>
-              <select name="interest" id="" class="form-control1" required>
-                <option class="select-option" value="Select interest">Select Option</option>
+              <span class="dropdown-heading">Interested In</span> <br/>
+              <select name="interest" value="Select interest" class="form-control1" required>
+                <option class="select-option" value="">Select Option</option>
                 <option value="Residential Property">Residential Property</option>
-                <option value=" Commercial Property">Commercial Property</option>
+                <option value="Commercial Property">Commercial Property</option>
               </select>
             </div>
 

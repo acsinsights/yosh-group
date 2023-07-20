@@ -12,7 +12,7 @@
       $body = "Name: $name\nPhone: $phone\nEmail: $email\nAddress: $website\n\nInterested Property:\n$message\n\nRegard,\n$name";
       $sender = "From: $email";
       if(mail($receiver, $subject, $body, $sender)){
-        header("Location: thankyou.html");
+        echo '<script>alert("Thank You")</script>';
       }else{
          echo "Sorry, failed to send your message!";
       }
